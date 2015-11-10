@@ -1,13 +1,16 @@
 .container{
   clear:both;
-  border-top: 1px solid #000;
+  margin-bottom: 10px; auto;
+  top:0; bottom: 0;
+  left:0; right:0;
+  text-align: center;
+}
+h1{
+  text-align: center;
 }
 
-
 #pad{
-  border-top: 1px solid #000;
-
-  height: 60vh;
+  height: 80vh;
   width: 30vw;
   margin: 0 auto;
   top:0; bottom: 0;
@@ -15,10 +18,8 @@
   display: inline-block;
 }
 #htmlArea{
-  border-top: 1px solid #000;
-  height: 60vh;
-  width: 25vw;
-  top:0; bottom: 0;
-  left:0; right:0;
+  height: 80vh;
+  width: 50vw;
+  border: 1px solid #000;
   display: inline-block;
 }
