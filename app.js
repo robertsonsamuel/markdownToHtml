@@ -3,9 +3,8 @@ var express = require('express');
 var bodyParser = require('body-parser')
 var morgan = require('morgan')
 var marked = require('marked');
-
 var app = express();
-
+var port = process.env.PORT || 3000;
 // set view to jade
 app.set('view engine', 'jade');
 
@@ -34,5 +33,4 @@ app.use('/', function(req,res){
 });
 
 
-var port = 3000;
 app.listen(port);
